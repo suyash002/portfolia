@@ -8,14 +8,14 @@ const projects = [
     name: "Crazy GKTrick",
     year: "May2024- Dec2024",
     align: "right",
-    image: "../../../public/images/gktrick.png",
+    image: "/images/gktrick.png",
     link: "https://www.crazygktrick.com/",
   },
   {
     name: "Social Connect",
     year: "Sep2024 - Dec2024",
     align: "left",
-    image: "../../../public/images/socialconnect.png",
+    image: "/images/socialconnect.png",
     link: "https://thesocialconnect.co.in/",
   },
 ];
