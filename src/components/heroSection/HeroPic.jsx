@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
 import { Component } from "react";
-import ProfilePic from "../../assets/images/ProfilePicc.png"; 
+import ProfilePic from "../../images/ProfilePicc.png";
+
 
 const HeroPic = () => {
   return ( 
