@@ -1,12 +1,9 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-import { Component } from "react";
-import ProfilePic from "../../../public/images/ProfilePicc.png";
-
 
 const HeroPic = () => {
-  return ( 
+  return (
     <motion.div
       variants={fadeIn("left", 0.2)}
       initial="hidden"
@@ -15,7 +12,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src={ProfilePic}
+        src="../../public/images/ProfilePicc.png"
         alt="Suyash Upadhyay"
         className="max-h-[450px] w-[80%] rounded-3xl"
       />
